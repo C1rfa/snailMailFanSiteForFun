@@ -1,0 +1,23 @@
+.latest {
+  width: 90%;
+  max-width: 80rem;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+
+.latest h2 {
+  font-family: "Indie Flower", cursive;
+  text-shadow: 3px 4px 5px #370617;
+  font-size: 2rem;
+  color: #03071e;
+  text-align: center;
+
+  border: 20px solid;
+  border-image: linear-gradient(to bottom, #370617 40%, #6a040f) 10;
+}
+
+@media (min-width: 768px) {
+  .latest h2 {
+    font-size: var(--size-16);
+  }
+}

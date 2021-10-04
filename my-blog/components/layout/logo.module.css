@@ -1,0 +1,15 @@
+.logo {
+  z-index: 100000;
+  position: relative;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: bold;
+  font-family: "Patrick Hand", cursive;
+  color: var(--color-grey-50);
+}
+
+@media (min-width: 768px) {
+  .logo {
+    font-size: var(--size-8);
+  }
+}
