@@ -1,0 +1,21 @@
+.posts {
+  width: 90%;
+  max-width: 80rem;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+.posts h1 {
+  margin: 0;
+  padding-bottom: 2rem;
+  font-size: 3rem;
+  font-family: "Patrick Hand", sans-serif;
+  color: #03071e;
+  text-align: center;
+}
+
+@media (min-width: 768px) {
+  .posts h1 {
+    font-size: 4rem;
+  }
+}

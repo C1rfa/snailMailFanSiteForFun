@@ -1,0 +1,39 @@
+.content {
+  width: 95%;
+  max-width: 90rem;
+  margin: auto;
+  padding: 2rem 0;
+  font-size: 2rem;
+  line-height: 1rem;
+  background-color: #03071e;
+  border-radius: 6px;
+}
+
+.content p {
+  color: white;
+  line-height: 3rem;
+}
+
+.content h1,
+.content h2 {
+  padding: 0 5rem;
+  color: #fff;
+}
+
+.content table {
+  line-height: 2rem;
+  color: #fff;
+  text-decoration: none;
+}
+
+.content img {
+  margin: 0.25rem auto;
+  width: 100%;
+  max-width: 256px;
+}
+
+@media (min-width: 768px) {
+  .content {
+    padding: var(--size-8);
+  }
+}
