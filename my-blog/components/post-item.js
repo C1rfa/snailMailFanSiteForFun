@@ -14,10 +14,11 @@ const PostItem = ({ post }) => {
   });
 
   const imagePath = `/images/posts/${image}`;
+  const linkPath = `/posts/${slug}`;
 
   return (
     <li className={styles.post}>
-      <Link href="#">
+      <Link href={linkPath}>
         <a>
           <div className={styles.image}>
             <Image

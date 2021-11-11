@@ -61,6 +61,7 @@ button {
 
 main {
   margin: 0;
-  padding: 0;
+  padding: 3rem;
+  min-height: calc(100vh - 12rem);
   background-image: linear-gradient(to bottom, #9d0208 40%, #6a040f);
 }
